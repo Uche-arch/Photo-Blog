@@ -33,7 +33,7 @@ body {
   border-radius: 50%;
   width: 100px; /* Adjust size as needed */
   height: 100px; /* Adjust size as needed */
-  animation: spin 0.5s linear infinite;
+  animation: spin 0.7s linear infinite;
   position: relative;
 }
 
@@ -172,8 +172,9 @@ main {
 }
 .photo > img {
   height: 40vh;
-  background-position: center;
-  background-size: cover;
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-position-y: -30px; */
   background-repeat: no-repeat;
   object-fit: cover;
   cursor: pointer;
@@ -182,6 +183,7 @@ main {
 .caption {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
 }
 .caption p {
   display: none;
