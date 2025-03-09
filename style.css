@@ -176,6 +176,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .caption {
